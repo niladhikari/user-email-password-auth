@@ -39,6 +39,7 @@ const HeroRegister = () => {
                     placeholder="email"
                     className="input input-bordered"
                     name="email"
+                    required
                   />
                 </div>
                 <div className="form-control">
@@ -50,6 +51,7 @@ const HeroRegister = () => {
                     placeholder="password"
                     className="input input-bordered"
                     name="password"
+                    required
                   />
                   <label className="label">
                     <a href="#" className="label-text-alt link link-hover">
