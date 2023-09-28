@@ -50,7 +50,7 @@ const Header = () => {
               {links}
             </ul>
           </div>
-          <img className="w-40" src="https://i.ibb.co/XLkQrZx/Logo.png" alt="" />
+          <a className="btn btn-ghost normal-case text-xl bg-blue-400">Email Auth</a>
         </div>
         <div className="navbar-center hidden md:flex">
           <ul className="menu font-bold menu-horizontal px-1">{links}</ul>
